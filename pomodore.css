@@ -1,0 +1,53 @@
+body{
+    background-color: grey;
+}
+h2{
+    font-weight: 900;
+    color: white;
+    font-size: 5em;
+    font-family: 'Indie Flower', cursive;
+}
+h6{
+    color: white;
+}
+#signs{
+    cursor:pointer;
+}
+.clock{
+    border: 2px solid lightgreen;
+    width: 30%;
+    height: 40%;
+    border-radius: 20%;
+    background-repeat: no-repeat;
+}
+/* .clock:hover{
+    background: linear-gradient(
+        to top, 
+        red 0%, 
+        red 50%, 
+        grey 50%, 
+        grey 100%
+    );
+} */
+
+#clockLabel{
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+}
+.clockTime{
+    font-size: 100px;
+    color: white;
+}
+.displayElm{
+    display: block;
+}
+.hideElm{
+    display: none;
+}
+#clockDisplayDiv{
+    display: flex;
+    padding-left: 110px;
+}
